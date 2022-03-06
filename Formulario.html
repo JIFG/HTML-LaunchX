@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Realizar Pedido</h1>
+<form action="Pedido.js">
+    <h2>Datos De Contacto</h2>
+    <label for="Nombre"> Nombre Completo </label><br>
+    <input type="text" id="Nombre" name="Nombre" 
+    placeholder="Nombre Completo"><br><br>
+
+    <label for="numero1">Numero de celular </label><br>
+    <input type="number" id="numero1" name="numero1"
+    placeholder="Numero de celular"><br><br>
+
+    <label for="correo1">Correo Electronico</label><br>
+    <input type="email" id="correo1" name="correo1"
+    placeholder="Numero de celular"><br><br>
+
+    <hr>
+    <h1>Pedido</h2>
+        <label for="pastel">Pastel a elegir</label><br><br>
+        <select name="pastel" id="pastel">
+            <option value="Pasteñ de almendras">Nuez Con chocolate</option>
+            <option value="Pastel Aleman">Nuez Con chocolate</option>
+            <option value="chocolate">Nuez Con chocolate</option>
+            <option value="chocolate">Tradicional de chocolate</option>
+            <option value="chocolate">Nuez Con chocolate</option>
+            <option value="chocolate">Chocoflan</option>
+            <option value="chocolate">Zanahoria</option>
+            <option value="chocolate">Naranja</option>
+        </select>
+        <br>
+    <h2>Decoración</h2>
+    <label for="adorno1">Vela numerica</label>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Vela numerica">
+    <br><br>
+    <label for="adorno2">Nombre o felicitación</label>
+    <input type="checkbox" id="adorno2" name="adorno2" value="Nombre o felicitación">
+    <br><br>
+    <input type="text" id="nombref" name="nombref" value=""
+    placeholder="Nombre o felicitación">
+    <br><br>
+    
+    <label for="adorno3">Drip cake</label>
+    <input type="checkbox" id="adorno3" name="adorno3" value="Drip cake">
+    <br><br>
+    <label for="adorno4">Vela Tradicional</label>
+    <input type="checkbox" id="adorno4" name="adorno4" value="Vela Tradicional">
+    <br><br>
+    <label for="adorno5">personaje o imagen de su agrado</label>
+    <input type="checkbox" id="adorno5" name="adorno5" value="personaje o imagen de tú agrado">
+    <br><br>
+    <label for="imagen">Ingrese link o Imagen</label>
+    <br> <br>
+
+    <input type="text" id="texto" name="texto" value="">
+    <br> <br>
+
+    <input type="reset">
+    <input type="submit">
+</form>
+   
+</body>
